@@ -1,0 +1,61 @@
+{
+  "name": "ytmusicplayer",
+  "productName": "YT-Music-Player",
+  "description": "Electron Menu bar app for YouTube Music",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Sokcet Development",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "setup": "yarn install && yarn add electron-ad-blocker"
+  },
+  "dependencies": {
+    "@cliqz/adblocker-electron": "^1.23.8",
+    "electron-squirrel-startup": "^1.0.0",
+    "menubar": "*"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.59",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.59",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.59",
+    "@cliqz/adblocker-electron": "^1.23.8",
+    "electron": "15.3.0"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "platform": "all",
+        "icon": "./Icon"
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel"
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  }
+}
