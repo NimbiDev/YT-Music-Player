@@ -1,8 +1,8 @@
+![Github top language](https://img.shields.io/github/languages/top/Socket-Development/YT-Music-Player)
 ![Github issues](https://img.shields.io/github/issues/Socket-Development/YT-Music-Player?style=plastic)
 ![GitHub forks](https://img.shields.io/github/forks/Socket-Development/YT-Music-Player?style=plastic)
 ![GitHub stars](https://img.shields.io/github/stars/Socket-Development/YT-Music-Player?style=plastic)
 ![GitHub license](https://img.shields.io/github/license/Socket-Development/YT-Music-Player?style=plastic)
-![Github top language](https://img.shields.io/github/languages/top/Socket-Development/YT-Music-Player)
 ---
 
 
