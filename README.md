@@ -3,6 +3,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/Socket-Development/YT-Music-Player)
 ![GitHub license](https://img.shields.io/github/license/Socket-Development/YT-Music-Player)
 
+---
+
 
 <p align="center">
   <img width="200" height="200" src="./Icon.png">
