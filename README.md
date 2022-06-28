@@ -20,10 +20,6 @@ This little app was inspired by  [rosswaycaster/XM-Menu-Player](https://github.c
 
 ---
 
-### Requirements
-
- - **yarn**
-
 ### Supported Platforms
 
  - **Mac**
