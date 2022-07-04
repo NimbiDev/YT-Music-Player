@@ -24,6 +24,7 @@ const mb = menubar({
   icon: path.join(__dirname, "./MenuIcon.png"),
   webPreferences: {
     partition: "persist:ytmusicplayer",
+    webgl: true,
   },
 });
 
@@ -41,6 +42,10 @@ mb.on("ready", () => {
 
   // First URL
   win.loadURL("https://music.youtube.com/");
+  win.setBackgroundColor('#333333')
+  win.once('ready-to-show', () => {
+    win.show()
+  });
 
   // mb.on('after-create-window', () => {}
 
