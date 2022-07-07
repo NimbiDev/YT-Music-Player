@@ -24,10 +24,8 @@
 
 ---
 
-1. Download the `YTMusicPlayer-setup.exe` file from the latest release.
-2. Double click the `YTMusicPlayer-setup.exe` file to run the setup.
-3. 
-
+ - Download the `YTMusicPlayer-setup.exe` file from the latest release.
+ - Double click the `YTMusicPlayer-setup.exe` file to run the setup.
  - **If NodeJS is installed**: The setup will auto compile the application into the `%SystemDrive%\Apps\YT Music Player` directory. 
     - From there, simply wait for it to finish compiling your application.
     - Finally, once it is done compiling your application simply double-click the shortcut on your desktop or in your start menu to run the application. 
