@@ -1,5 +1,5 @@
 ![Github top language](https://img.shields.io/github/languages/top/NimbiDev/YT-Music-Player?style=plastic)
-![Github issues](https://img.shields.io/github/issues/NimbiDevYT-Music-Player?style=plastic)
+![Github issues](https://img.shields.io/github/issues/NimbiDev/YT-Music-Player?style=plastic)
 ![GitHub forks](https://img.shields.io/github/forks/NimbiDev/YT-Music-Player?style=plastic)
 ![GitHub stars](https://img.shields.io/github/stars/NimbiDev/YT-Music-Player?style=plastic)
 ![GitHub license](https://img.shields.io/github/license/NimbiDev/YT-Music-Player?style=plastic)
