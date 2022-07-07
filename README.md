@@ -35,7 +35,7 @@
 ---
 
 1. Download this repo.
-2. Open the internal src folder in your command line or Terminal.
+2. Open the internal `src` folder in your Terminal.
 3. Run `yarn install` to install the dependencies.
 4. Then run `yarn package`to package the application.
 5. Check the `out` folder for the packaged application to run.
