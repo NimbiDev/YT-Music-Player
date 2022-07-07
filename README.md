@@ -49,7 +49,7 @@
 
 ### Notes
 
- - The Windows installer creates a shortcut to a `app.vbs` file that runs the compiled **YouTube Music** app. This is used for debug logging to help with any errors that people may or may not have. *This shortcut gets created regardless of whther the app is compiled or not*. To avoid confusion, make sure that the required version of **NodeJS** is installed ***before*** running the `YTMusic-setup.exe`. The latest version of **NodeJS** at the time of publishing this application is **NodeJS**: `v18.5.0`
+ - The Windows installer creates a shortcut to a `app.vbs` file that runs the compiled **YouTube Music** app. This is used for debug logging to help with any errors that people may or may not have. *This shortcut gets created regardless of whether the app is compiled or not*. To avoid confusion, make sure that the required version of **NodeJS** is installed ***before*** running the `YTMusic-setup.exe`. The latest version of **NodeJS** at the time of publishing this application is **NodeJS**: `v18.5.0`
 
 ---
 
