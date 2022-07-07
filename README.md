@@ -16,7 +16,7 @@
  
 ### Dependencies
 
- - **NodeJS**: `latest`
+ - **NodeJS**: `v16.15.1`
 
 ### Instructions
 
@@ -24,8 +24,8 @@
 
 ---
 
-1. Download the `YTMusic-setup.exe` file from the latest release.
-2. Double click the `YTMusic-setup.exe` file to run the setup.
+1. Download the `YTMusicPlayer-setup.exe` file from the latest release.
+2. Double click the `YTMusicPlayer-setup.exe` file to run the setup.
 3. 
 
  - **If NodeJS is installed**: The setup will auto compile the application into the `%SystemDrive%\Apps\YT Music Player` directory. from there simply wait for it to finish compiling and then double-click the shortcut to run the application. 
@@ -49,7 +49,7 @@
 
 ### Notes
 
- - The Windows installer creates a shortcut to a `app.vbs` file that runs the compiled **YouTube Music** app. This is used for debug logging to help with any errors that people may or may not have. *This shortcut gets created regardless of whether the app is compiled or not*. To avoid confusion, make sure that the required version of **NodeJS** is installed ***before*** running the `YTMusic-setup.exe`. The latest version of **NodeJS** at the time of publishing this application is **NodeJS**: `v18.5.0`
+ - The Windows installer creates a shortcut to a `app.vbs` file that runs the compiled **YouTube Music** app. This is used for debug logging to help with any errors that people may or may not have. *This shortcut gets created regardless of whether the app is compiled or not*. To avoid confusion, make sure that the required version of **NodeJS** is installed ***before*** running the `YTMusicPlayer-setup.exe`.
 
 ---
 
