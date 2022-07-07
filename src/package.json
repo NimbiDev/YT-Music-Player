@@ -1,7 +1,7 @@
 {
   "name": "ytmusicplayer",
-  "productName": "YT Music Player",
-  "description": "Electron Menu bar app for YouTube Music",
+  "productName": "YouTube-Music",
+  "description": "Electron app for YouTube Music",
   "keywords": [],
   "main": "./main.js",
   "version": "1.0.0",

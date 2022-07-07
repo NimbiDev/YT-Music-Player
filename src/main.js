@@ -5,7 +5,7 @@ const { menubar } = require("menubar");
 
 const mb = menubar({
   browserWindow: {
-    width: 450,
+    width: 500,
     height: 660,
     resizable: true,
     movable: true,
