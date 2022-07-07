@@ -10,9 +10,13 @@
 
 ### Supported Platforms
 
- - **Mac**
+ - **MacOS**
  - **Windows**
  - **Linux**
+ 
+### Dependencies
+
+ - **NodeJS**: `latest`
 
 ### Instructions
 
@@ -22,9 +26,7 @@
 
 1. Download the `YTMusic-setup.exe` file from the latest release.
 2. Double click the `YTMusic-setup.exe` file to run the setup.
-3.
-  - If the installer find the required NodeJS Dependency it will aut compile. from there simply wait for it to finish compiling and then double-click the shortcut run the app.
-  - If the installer does not find NodeJS Dependency it will open your browser to the official download and automatically download the required NodeJS version for you. From ther run the NodeJS installer and once finised run the `YTMusicPlayer-setup.exe` file again. Once it finishes compiling your app simply double-click the shortcut to run it.
+3. If the installer **DOES** find the required NodeJS Dependency it will auto compile the application into the `%SystemDrive%\Apps\YT Music Player` directory. from there simply wait for it to finish compiling and then double-click the shortcut run the app. If the installer **DOES NOT** find NodeJS Dependency it will open your browser to the official download and automatically download the required NodeJS version for you. From ther run the NodeJS installer and once finised run the `YTMusicPlayer-setup.exe` file again. Once it finishes compiling your app simply double-click the shortcut to run it.
  
 ---
 
