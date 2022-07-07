@@ -26,7 +26,11 @@
 
 1. Download the `YTMusic-setup.exe` file from the latest release.
 2. Double click the `YTMusic-setup.exe` file to run the setup.
-3. If the installer **DOES** find the required NodeJS Dependency it will auto compile the application into the `%SystemDrive%\Apps\YT Music Player` directory. from there simply wait for it to finish compiling and then double-click the shortcut run the app. If the installer **DOES NOT** find NodeJS Dependency it will open your browser to the official download and automatically download the required NodeJS version for you. From ther run the NodeJS installer and once finised run the `YTMusicPlayer-setup.exe` file again. Once it finishes compiling your app simply double-click the shortcut to run it.
+3. 
+
+ - **If NodeJS is installed**: The setup will auto compile the application into the `%SystemDrive%\Apps\YT Music Player` directory. from there simply wait for it to finish compiling and then double-click the shortcut to run the application. 
+
+ - **If NodeJS is NOT installed**: The setup will open your browser to the official download page for NodeJS and automatically download the required NodeJS version for you. From ther run the NodeJS installer and once finished run the `YTMusicPlayer-setup.exe` file again. Once it finishes compiling your app simply double-click the shortcut to run the application.
  
 ---
 
@@ -39,6 +43,13 @@
 3. Run `yarn install` to install the dependencies.
 4. Then run `yarn package`to package the application.
 5. Check the `out` folder for the packaged application to run.
+
+---
+
+
+### Notes
+
+ - The Windows installer creates a shortcut to a `app.vbs` file that runs the compiled **YouTube Music** app. *This shortcut gets created regardless of whther the app is compiled or not*. To avoid confusion, make sure that the required version of **NodeJS** is installed ***before*** running the `YTMusic-setup.exe`. The latest version of **NodeJS** at the time of publishing this application is **NodeJS**: `v18.5.0`
 
 ---
 
